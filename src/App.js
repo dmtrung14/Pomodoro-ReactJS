@@ -4,7 +4,7 @@ import CountdownAnimation from './components/CountdownAnimation'
 import SetPomodoro from './components/SetPomodoro'
 import { SettingsContext } from './context/SettingsContext'
 
-const App = () => {
+function App() {
 
   const {
     pomodoro,

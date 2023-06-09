@@ -43,6 +43,11 @@ code {
   background-color: #FE6F6B;
 }
 
+.active-label-break{
+  color: black;
+  background-color: green;
+}
+
 .timer-container {
   display: flex;
   flex:2;
