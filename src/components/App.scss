@@ -1,10 +1,11 @@
 //All about the colors
-$dark-blue : #18152B;
+$dark-blue : #02000e;
 $primary-white : #eeeeff;
 $primary-dark : #111111;
-$primary-blue : #fb6464;
-$empty-dark : #302b53;
-$primary-gray : #c5737338;
+$primary-blue : #04ff2e;
+$primary-red: red;
+$empty-dark : #2e323d;
+$primary-gray : #5f656a;
 
 //All about the fonts
 @font-face {
@@ -53,6 +54,9 @@ $primary-gray : #c5737338;
 }
 .container-1400{
     @include container-width(1400px);
+}
+.subheader{
+  font-family: "Brush Script MT", Brush Script Std, cursive
 }
 
 // Stuffs related to the fluid typography from the CSS tricks
@@ -110,15 +114,10 @@ input{
   display: inline-block;
   cursor: pointer;
   &-configure{
-    border: 2px solid $primary-blue;
+    border: 2px solid $primary-gray;
   }
 }
 
-//Extra Classes
-// .btn,btn-icon{
-//   padding: 10px 15px;
-//   background-color: $empty-dark;
-// }
 // Links Styling
 .social__links{
   // background-color: pink;
@@ -172,6 +171,7 @@ body{
       cursor: pointer;
     }
   }
+  box-shadow: #5f656a;
 }
 
 
@@ -288,7 +288,7 @@ option{
   border: none;
 }
 .submit-btn{
-  background-color: $primary-blue;
+  background-color: $primary-gray;
   color: $primary-white;
   font-family: MetropolisBold;
 }
@@ -309,6 +309,11 @@ option{
   &--path-elapsed{
     stroke-width: 5px;
     stroke: $primary-blue;
+    fill: none;
+  }
+  &--path-elapsed-red{
+    stroke-width: 5px;
+    stroke: $primary-red;
     fill: none;
   }
  &--label{

@@ -1,5 +1,5 @@
 import React from "react";
-// import SocialLinks from "./SocialLinks";
+import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
@@ -7,8 +7,8 @@ const Footer = () => {
       {/* <div className="footer__section--circle">
         <h2>?</h2>
       </div> */}
-      <p>Designed in Figma & Built with React🎯!</p>
-      {/* <SocialLinks /> */}
+      <p>By Trung Dang</p>
+      <SocialLinks />
     </div>
   );
 };

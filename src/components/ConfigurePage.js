@@ -19,7 +19,7 @@ const ConfigurePage = (props) => {
     <div className="configure__section">
       <div className="configure__section--box">
         <div className="configure__section--box-upper">
-          <h2>Configure 😊</h2>
+          <h2>Settings 🎯 </h2>
           <p onClick={changeConfigure}>
             <svg
               fill="#eeeeff"
@@ -38,7 +38,7 @@ const ConfigurePage = (props) => {
             <label>Focus/Session Time (In Minutes)</label>
             <input
               type="number"
-              placeholder="Eg.25"
+              placeholder="25"
               onChange={(e) => {
                 setPomodoro(e.target.value);
               }}
@@ -55,7 +55,7 @@ const ConfigurePage = (props) => {
             <label>Break Time (In Minutes)</label>
             <input
               type="number"
-              placeholder="Eg.5"
+              placeholder="5"
               onChange={(e) => {
                 setPomoBreak(e.target.value);
               }}

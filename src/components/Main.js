@@ -110,19 +110,25 @@ const Main = (props) => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <g className="base__timer--circle">
-                <circle
+                {isBreak ?<circle
                   className="base__timer--path-elapsed"
                   cx="50"
                   cy="50"
                   r="45"
-                />
+                /> : <circle
+                className="base__timer--path-elapsed-red"
+                cx="50"
+                cy="50"
+                r="45"
+              />}
+                
               </g>
             </svg>
             <div className="base__timer--label">
               <h1>
                 {minutes} : {seconds}
               </h1>
-              <p>{isBreak ? "#BREAK" : "#SESSION"}</p>
+              <p>{isBreak ? "BREAK" : "FOCUS SESSION"}</p>
             </div>
           </div>
         </div>
@@ -155,7 +161,7 @@ const Main = (props) => {
             )}
           </div>
           <div className="main__section--info" onClick={changeConfigure}>
-            <p className="btn btn-configure">Configure</p>
+            <p className="btn btn-configure">Settings</p>
           </div>
           <div className="btn-restart" onClick={restartFunction}>
             <svg
