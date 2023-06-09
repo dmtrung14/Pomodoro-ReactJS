@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2260676.chunk.css",
+    "main.js": "/static/js/main.f3b2aae4.chunk.js",
+    "main.js.map": "/static/js/main.f3b2aae4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.db461cc9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.db461cc9.js.map",
+    "static/js/2.c7746d08.chunk.js": "/static/js/2.c7746d08.chunk.js",
+    "static/js/2.c7746d08.chunk.js.map": "/static/js/2.c7746d08.chunk.js.map",
+    "static/js/3.16b248d8.chunk.js": "/static/js/3.16b248d8.chunk.js",
+    "static/js/3.16b248d8.chunk.js.map": "/static/js/3.16b248d8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a2260676.chunk.css.map": "/static/css/main.a2260676.chunk.css.map",
+    "static/js/2.c7746d08.chunk.js.LICENSE.txt": "/static/js/2.c7746d08.chunk.js.LICENSE.txt",
+    "static/js/3.16b248d8.chunk.js.LICENSE.txt": "/static/js/3.16b248d8.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/PlatNomor.2d01a336.otf",
+    "static/media/pauseTimer.258d5e8a.mp3": "/static/media/pauseTimer.258d5e8a.mp3",
+    "static/media/startTimer.45b08ed7.mp3": "/static/media/startTimer.45b08ed7.mp3",
+    "static/media/timesUp.1c5609e2.mp3": "/static/media/timesUp.1c5609e2.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db461cc9.js",
+    "static/js/2.c7746d08.chunk.js",
+    "static/css/main.a2260676.chunk.css",
+    "static/js/main.f3b2aae4.chunk.js"
+  ]
+}
