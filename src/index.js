@@ -1,12 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import SettingsContextProvider from './context/SettingsContext';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+import "./index.scss";
 
-ReactDOM.render(
-  <SettingsContextProvider>
-    <App />
-  </SettingsContextProvider>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
